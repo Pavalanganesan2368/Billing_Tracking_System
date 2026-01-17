@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./style.css">
+     <title>Billing System</title>
+</head>
+<body>
+     <section class="heading-section">
+          <h1>Billing System <span id="data-display"></span></h1>
+     </section>
+     <main class="container">
+          <section class="main-container">
+               <div class="input-container">
+                    <h2>Bill Product</h2>
+                    <div class="input-section">
+                         <input type="text" name="input-name" id="input-name"
+                         placeholder="Enter The Product Name...">
+                    </div>
+                    <div class="input-section">
+                         <input type="text" name="input-price" id="input-price"
+                         placeholder="Enter The Product Price...">
+                    </div>
+                    <div class="input-section">
+                         <input type="text" name="input-quality" id="input-quality"
+                         placeholder="Enter The Product Quality...">
+                    </div>
+                    <div class="input-section">
+                         <button class="btn">ADD</button>
+                    </div>
+               </div>
+
+               <!-- <div class="price-section">
+                    <table class="table-section">
+                         <thead>
+                              <tr>
+                                   <th>NAME</th>
+                                   <th>PRICE</th>
+                                   <th>QUANTITY</th>
+                              </tr>
+                         </thead>
+
+                         <tbody>
+                              <tr class="bill-data">
+
+                              </tr>
+                         </tbody>
+                    </table>
+
+               </div> -->
+               <section class="price-container">
+                    <h4>GST (9%)</h4>
+                    <h4>Total : <span id="total"> ₹0.00</span></h4>
+               </section>
+          </section>
+
+          <section class="search-container">
+               <section class="heading-section">
+                    <h2>Search Product</h2>
+               </section>
+               
+               <section class="search-section">
+                    <input type="text" name="search-product" id="search-product" placeholder="Enter The Product To Search...">
+               </section>
+
+               <section class="table-section">
+                    <table>
+                         <thead>
+                              <tr>
+                                   <th>Name</th>
+                                   <th>Price</th>
+                                   <th>Quality</th>
+                                   <th>Delete</th>
+                              </tr>
+                         </thead>
+
+                         <tbody class="search-data">
+                              
+                         </tbody>
+                    </table>
+               </section>
+          </section>
+     </main>
+     <script src="./script.js"></script>
+</body>
+</html>
