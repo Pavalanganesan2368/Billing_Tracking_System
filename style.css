@@ -40,6 +40,13 @@ body {
      margin: 0.9rem 0;
 }
 
+.btn {
+     background-color: #a00;
+     color: #fff;
+     font-size: 1.4rem;
+     font-weight: 600;
+}
+
 .input-container {
      width: 100%;
      margin: 1.1rem 0;
